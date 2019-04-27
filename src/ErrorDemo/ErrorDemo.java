@@ -18,7 +18,7 @@ public class ErrorDemo {
 
       System.out.println("The Result is " + num / deno);
     } catch (Exception e) {
-      System.out.println(e.getMessage());
+      System.out.println("Exception Error: " + e.getMessage());
     } finally {
       System.out.println("---- End of Error Handling Example ----");
     }

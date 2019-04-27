@@ -27,7 +27,7 @@ public class ErrorDemo2 {
     } catch (InputMismatchException e) {
       System.out.println("Error: You did not enter an integer.");
     } catch (Exception e) {
-      System.out.printf(e.getMessage());
+      System.out.printf("Exception Error: " + e.getMessage());
     }
   }
 }

@@ -1,4 +1,4 @@
-package errordemo2;
+package ErrorDemo2;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

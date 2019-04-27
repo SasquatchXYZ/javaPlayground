@@ -1,4 +1,4 @@
-package errordemo;
+package ErrorDemo;
 
 import java.util.Scanner;
 

@@ -1,10 +1,13 @@
 package ObjectOrientedDemo;
 
 public class Staff {
+
+  // Fields
   private String nameOfStaff;
   private final int hourlyRate = 30;
   private int hoursWorked;
 
+  // Methods
   private void printMessage() {
     System.out.println("Calculating Pay...");
   }
@@ -23,6 +26,7 @@ public class Staff {
     }
   }
 
+  // Overloading Method
   public int calculatePay(int bonus, int allowance) {
 
     printMessage();
@@ -34,6 +38,7 @@ public class Staff {
     }
   }
 
+  // Setter Method
   public void setHoursWorked(int hours) {
 
     if (hours > 0) {
@@ -44,11 +49,13 @@ public class Staff {
     }
   }
 
+  // Getter Method
   public int getHoursWorked() {
 
     return hoursWorked;
   }
 
+  // Constructors
   public Staff(String name) {
     nameOfStaff = name;
 

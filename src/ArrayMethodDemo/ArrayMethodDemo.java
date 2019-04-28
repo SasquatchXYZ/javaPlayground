@@ -15,6 +15,8 @@ public class ArrayMethodDemo {
     int[] myArray2 = amd.returnArray();
     System.out.println(Arrays.toString(myArray2));
 
+    System.out.println("---------------------------------------");
+
     // --------------------------------------------------------------------------
     int number = 2;
     System.out.println("number before = " + number);

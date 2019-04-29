@@ -2,7 +2,7 @@ package InheritanceDemo;
 
 import java.util.Scanner;
 
-public class Member {
+abstract public class Member {
 
   // Fields
   public String welcome = "Welcome to ABC Fitness";
@@ -58,8 +58,11 @@ public class Member {
     System.out.println("Annual Fee: " + annualFee);
   }
 
-  public void calculateAnnualFee() {
-    annualFee = 0;
-  }
+  // Original Method
+  // public void calculateAnnualFee() {
+  //   annualFee = 0;
+  // }
 
+  // Abstract Method
+  abstract public void calculateAnnualFee();
 }

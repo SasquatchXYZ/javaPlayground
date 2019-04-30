@@ -19,7 +19,7 @@ class ClassA extends ModifierDemo {
     System.out.println(packagePrivateNum);
 
     // This is NOT ok
-    System.out.println(privateNum);
+//    System.out.println(privateNum);
   }
 }
 
@@ -39,6 +39,6 @@ class ClassB {
     System.out.println(p.packagePrivateNum);
 
     // This is NOT ok
-    System.out.println(p.privateNum);
+//    System.out.println(p.privateNum);
   }
 }

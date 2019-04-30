@@ -18,10 +18,10 @@ class ClassC extends ModifierDemo {
     System.out.println(protectedNum);
 
     // This is NOT ok
-    System.out.println(packagePrivateNum);
+//    System.out.println(packagePrivateNum);
 
     // This is NOT ok
-    System.out.println(privateNum);
+//    System.out.println(privateNum);
   }
 }
 
@@ -35,12 +35,12 @@ class ClassD {
     System.out.println(p.publicNum);
 
     // This is NOT ok
-    System.out.println(p.protectedNum);
+//    System.out.println(p.protectedNum);
 
     // This is NOT ok
-    System.out.println(p.packagePrivateNum);
+//    System.out.println(p.packagePrivateNum);
 
     // This is NOT ok
-    System.out.println(p.privateNum);
+//    System.out.println(p.privateNum);
   }
 }

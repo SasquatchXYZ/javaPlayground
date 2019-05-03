@@ -45,7 +45,7 @@ public class MembershipManagement {
     System.out.println("1) Add Member");
     System.out.println("2) Remove Member");
     System.out.println("3) Display Member Information");
-    System.out.println("\n\nPlease select an option (or Enter -1 to quit");
+    System.out.println("\n\nPlease select an option (or Enter -1 to Quit)...");
 
     choice = getIntInput();
 
